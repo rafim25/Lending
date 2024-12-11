@@ -1,0 +1,68 @@
+const PositionPeopleData = [
+    {
+        id: 1,
+        positionTitle: "HRD",
+        basicSalary: "Rp. 4,000,000",
+        transportAllowance: "Rp. 600,000",
+        mealAllowance: "Rp. 400,000",
+        total: "Rp. 6,000,000",
+    },
+    {
+        id: 2,
+        positionTitle: "Marketing Staff",
+        basicSalary: "Rp. 2,500,000",
+        transportAllowance: "Rp. 300,000",
+        mealAllowance: "Rp. 200,000",
+        total: "Rp. 3,000,000",
+    },
+    {
+        id: 3,
+        positionTitle: "Admin",
+        basicSalary: "Rp. 2,200,000",
+        transportAllowance: "Rp. 300,000",
+        mealAllowance: "Rp. 200,000",
+        total: "Rp. 2,700,000",
+    },
+    {
+        id: 4,
+        positionTitle: "Sales",
+        basicSalary: "Rp. 2,500,000",
+        transportAllowance: "Rp. 300,000",
+        mealAllowance: "Rp. 200,000",
+        total: "Rp. 3,000,000",
+    },
+    {
+        id: 5,
+        positionTitle: "Non Staff",
+        basicSalary: "Rp. 2,500,000",
+        transportAllowance: "Rp. 300,000",
+        mealAllowance: "Rp. 200,000",
+        total: "Rp. 3,000,000",
+    },
+    {
+        id: 6,
+        positionTitle: "Supervisor",
+        basicSalary: "Rp. 2,200,000",
+        transportAllowance: "Rp. 300,000",
+        mealAllowance: "Rp. 200,000",
+        total: "Rp. 2,700,000",
+    },
+    {
+        id: 7,
+        positionTitle: "Designer",
+        basicSalary: "Rp. 2,500,000",
+        transportAllowance: "Rp. 300,000",
+        mealAllowance: "Rp. 200,000",
+        total: "Rp. 3,000,000",
+    },
+    {
+        id: 8,
+        positionTitle: "Manager",
+        basicSalary: "Rp. 4,000,000",
+        transportAllowance: "Rp. 600,000",
+        mealAllowance: "Rp. 400,000",
+        total: "Rp. 6,000,000",
+    },
+];
+
+export default PositionPeopleData; 
