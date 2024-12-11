@@ -1,11 +1,24 @@
 import { useState, useEffect } from 'react';
 import DefaultLayoutAdmin from '../../../../layout/DefaultLayoutAdmin';
-import DataSettingPotonganGaji from '../../../../utils/DataSettingPotonganGaji';
+// import DataSettingPotonganGaji from '../../../../utils/DataSettingPotonganGaji';
 import { Link } from "react-router-dom";
 import { BreadcrumbAdmin, ButtonOne } from '../../../../components';
 import { FaRegEdit, FaPlus } from 'react-icons/fa'
 import { BsTrash3 } from 'react-icons/bs'
 import { BiSearch } from 'react-icons/bi'
+
+const DataSettingPotonganGaji = [
+    {
+        id: 1,
+        potonganGaji: "Alpha",
+        jumlahPotongan: "Rp. 100.000",
+    },
+    {
+        id: 2,
+        potonganGaji: "Sakit",
+        jumlahPotongan: "Rp. 0",
+    }
+];
 
 const ITEMS_PER_PAGE = 4;
 
