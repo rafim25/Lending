@@ -139,7 +139,7 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                                 (isActive && '!text-white')
                               }
                             >
-                              Employee List
+                              Customer List
                             </NavLink>
                           </li>
                           <li>
@@ -150,7 +150,7 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                                 (isActive && '!text-white')
                               }
                             >
-                              Position Data
+                              Lending Details
                             </NavLink>
                           </li>
                         </ul>
@@ -163,7 +163,7 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
               {/* <!-- Master Data Admin --> */}
 
               {/* <!-- Transaksi Admin --> */}
-              <SidebarLinkGroup
+              {/* <SidebarLinkGroup
                 activeCondition={
                   pathname === '/transaksi' || pathname.includes('transaksi')
                 }
@@ -189,7 +189,6 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                         <MdKeyboardArrowDown className={`absolute right-4 top-1/2 -translate-y-1/2 fill-current text-2xl ${open && 'rotate-180'
                           }`} />
                       </NavLink>
-                      {/* <!-- Dropdown Menu Start --> */}
                       <div
                         className={`translate transform overflow-hidden ${!open && 'hidden'
                           }`}
@@ -230,15 +229,14 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                           </li>
                         </ul>
                       </div>
-                      {/* <!-- Dropdown Menu End --> */}
                     </React.Fragment>
                   )
                 }}
-              </SidebarLinkGroup>
+              </SidebarLinkGroup> */}
               {/* <!-- Transaksi Admin --> */}
 
               {/* <!-- Laporan Admin --> */}
-              <SidebarLinkGroup
+              {/* <SidebarLinkGroup
                 activeCondition={
                   pathname === '/laporan' || pathname.includes('laporan')
                 }
@@ -264,7 +262,7 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                         <MdKeyboardArrowDown className={`absolute right-4 top-1/2 -translate-y-1/2 fill-current text-2xl ${open && 'rotate-180'
                           }`} />
                       </NavLink>
-                      {/* <!-- Dropdown Menu Start --> */}
+                     
                       <div
                         className={`translate transform overflow-hidden ${!open && 'hidden'
                           }`}
@@ -305,11 +303,11 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                           </li>
                         </ul>
                       </div>
-                      {/* <!-- Dropdown Menu End --> */}
+                     
                     </React.Fragment>
                   )
                 }}
-              </SidebarLinkGroup>
+              </SidebarLinkGroup>    */}
               {/* <!-- Laporan Admin --> */}
 
               {/* <!-- Pengaturan Admin --> */}
@@ -335,7 +333,7 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                         }}
                       >
                         <FiSettings />
-                        Pengaturan
+                        Settings
                         <MdKeyboardArrowDown className={`absolute right-4 top-1/2 -translate-y-1/2 fill-current text-2xl ${open && 'rotate-180'
                           }`} />
                       </NavLink>
@@ -353,7 +351,7 @@ const SidebarAdmin = ({ sidebarOpen, setSidebarOpen }) => {
                                 (isActive && '!text-white')
                               }
                             >
-                              Ubah Password
+                              Change Password
                             </NavLink>
                           </li>
                           <li>

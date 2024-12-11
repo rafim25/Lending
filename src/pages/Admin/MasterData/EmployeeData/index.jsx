@@ -41,10 +41,10 @@ const EmployeeData = () => {
 
     return (
         <DefaultLayoutAdmin>
-            <BreadcrumbAdmin pageName='Employee Data' />
+            <BreadcrumbAdmin pageName='Customer List' />
             <Link to="/admin/master-data/employee-data/employee-form" >
                 <ButtonOne>
-                    <span>Add Employee</span>
+                    <span>Add New Customer</span>
                     <span>
                         <FaPlus />
                     </span>
@@ -153,7 +153,7 @@ const EmployeeData = () => {
                 <div className='flex justify-between items-center mt-4 flex-col md:flex-row md:justify-between'>
                     <div className='flex items-center space-x-2'>
                         <span className='text-gray-5 dark:text-gray-4 text-sm py-4'>
-                            Showing {startIndex}-{endIndex} of {DataPegawaiPeople.length} Employee Data
+                            Showing {startIndex}-{endIndex} of {DataPegawaiPeople.length} Customer List
                         </span>
                     </div>
                     <div className='flex space-x-2 py-4'>
