@@ -1,7 +1,7 @@
 import React from 'react';
 import DefaultLayoutPegawai from '../../../layout/DefaultLayoutPegawai';
 import { BreadcrumbPegawai } from '../../../components';
-import PegawaiPeople from '../../../assets/images/user/gilbert.png'
+// import PegawaiPeople from '../../../../src/Assets/images/user/gilbert.png'
 
 const DashboardPegawai = () => {
     return (
@@ -19,7 +19,7 @@ const DashboardPegawai = () => {
             </div>
             <div className="flex flex-col md:flex-row rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark mt-2">
                 <div className="md:w-1/3 w-full px-4 py-4 flex justify-center md:justify-start">
-                    <img className="rounded-xl h-80 w-full md:w-80 object-cover" src={PegawaiPeople} alt="Gilbert Hutapea" />
+                    <i className="fas fa-user rounded-xl h-80 w-full md:w-80 object-cover" aria-hidden="true"></i>
                 </div>
                 <div className="md:w-2/3 px-4 md:px-20 py-4 md:py-20">
                     <div className="w-full md:text-lg">
