@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoIcon from '../../../../assets/images/logo/logo-icon.svg'
+// import LogoIcon from '../../../../assets/images/logo/logo-icon.svg'
 import { DropdownNotification, DropdownAdmin, DarkModeSwitcher } from '../../..'
 import { Link } from 'react-router-dom'
 import { BiSearch } from 'react-icons/bi'
@@ -52,7 +52,7 @@ const HeaderAdmin = (
           {/* <!-- Hamburger Toggle BTN --> */}
 
           <Link className='block flex-shrink-0 lg:hidden' to='/admin/dashboard'>
-            <img src={LogoIcon} alt='Logo PT. Humpus Karbometil Selulosa' />
+            <img src={''} alt='eadfsf' />
           </Link>
         </div>
 

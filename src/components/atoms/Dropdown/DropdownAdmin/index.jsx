@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import AdminPhoto from '../../../../assets/images/user/admin.svg'
+// import AdminPhoto from '../../../../assets/images/user/admin.svg'
 import { BiLogOut } from 'react-icons/bi'
 import { FiSettings } from 'react-icons/fi'
 import { MdKeyboardArrowDown } from 'react-icons/md'
@@ -54,7 +54,7 @@ const DropdownAdmin = () => {
         </span>
 
         <span className='h-12 w-12 rounded-full'>
-          <img src={AdminPhoto} alt='Admin' />
+          <img src={''} alt='Admin' />
         </span>
 
         <MdKeyboardArrowDown className="text-xl" />
