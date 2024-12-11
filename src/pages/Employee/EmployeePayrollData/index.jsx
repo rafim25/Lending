@@ -1,8 +1,83 @@
 import { useState, useEffect } from 'react';
 import DefaultLayoutPegawai from '../../../layout/DefaultLayoutPegawai';
-import DataGajiPegawaiPeople from '../../../utils/DataGajiPegawaiPeople';
+// import DataGajiPegawaiPeople from '../../../utils/DataGajiPegawaiPeople';
 import { BreadcrumbPegawai } from '../../../components';
 import { TfiPrinter } from 'react-icons/tfi'
+
+ const DataGajiPegawaiPeople = [
+    {
+        id: 1,
+        bulanTahun: "01/2023",
+        gajiPokok: "Rp. 4.000.000",
+        tunjanganTransport: "Rp. 600.000",
+        uangMakan: "Rp. 400.000",
+        jumlahPotongan: "Rp. 100.000",
+        totalGaji: "Rp. 5.900.000",
+    },
+    {
+        id: 2,
+        bulanTahun: "02/2023",
+        gajiPokok: "Rp. 2.500.000",
+        tunjanganTransport: "Rp. 300.000",
+        uangMakan: "Rp. 200.000",
+        jumlahPotongan: "Rp. 0",
+        totalGaji: "Rp. 3.000.000",
+    },
+    {
+        id: 3,
+        bulanTahun: "03/2023",
+        gajiPokok: "Rp. 2.200.000",
+        tunjanganTransport: "Rp. 300.000",
+        uangMakan: "Rp. 200.000",
+        jumlahPotongan: "Rp. 100.000",
+        totalGaji: "Rp. 2.600.000",
+    },
+    {
+        id: 4,
+        bulanTahun: "04/2023",
+        gajiPokok: "Rp. 2.500.000",
+        tunjanganTransport: "Rp. 300.000",
+        uangMakan: "Rp. 200.000",
+        jumlahPotongan: "Rp. 0",
+        totalGaji: "Rp. 3.000.000",
+    },
+    {
+        id: 5,
+        bulanTahun: "05/2023",
+        gajiPokok: "Rp. 2.500.000",
+        tunjanganTransport: "Rp. 300.000",
+        uangMakan: "Rp. 200.000",
+        jumlahPotongan: "Rp. 100.000",
+        totalGaji: "Rp. 2.900.000",
+    },
+    {
+        id: 6,
+        bulanTahun: "06/2023",
+        gajiPokok: "Rp. 2.200.000",
+        tunjanganTransport: "Rp. 300.000",
+        uangMakan: "Rp. 200.000",
+        jumlahPotongan: "Rp. 0",
+        totalGaji: "Rp. 2.700.000",
+    },
+    {
+        id: 7,
+        bulanTahun: "07/2023",
+        gajiPokok: "Rp. 2.500.000",
+        tunjanganTransport: "Rp. 300.000",
+        uangMakan: "Rp. 200.000",
+        jumlahPotongan: "Rp. 100.000",
+        totalGaji: "Rp. 2.900.000",
+    },
+    {
+        id: 8,
+        bulanTahun: "08/2023",
+        gajiPokok: "Rp. 4.000.000",
+        tunjanganTransport: "Rp. 600.000",
+        uangMakan: "Rp. 400.000",
+        jumlahPotongan: "Rp. 0",
+        totalGaji: "Rp. 6.000.000",
+    },
+];
 
 const ITEMS_PER_PAGE = 4;
 
