@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import PegawaiPhoto from '../../../../assets/images/user/gilbert.png'
+// import PegawaiPhoto from '../../../../assets/images/user/gilbert.png'
 import { BiLogOut } from 'react-icons/bi'
 import { FiSettings } from 'react-icons/fi'
 import { MdKeyboardArrowDown } from 'react-icons/md'
@@ -54,7 +54,7 @@ const DropdownPegawai = () => {
                 </span>
 
                 <span className='h-12 w-12'>
-                    <img className='rounded-full' src={PegawaiPhoto} alt='Pegawai' />
+                    {/* <img className='rounded-full' src={PegawaiPhoto} alt='Pegawai' /> */}
                 </span>
 
                 <MdKeyboardArrowDown className="text-xl" />
