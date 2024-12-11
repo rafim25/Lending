@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../../assets/images/logo/logo.svg'
 import LogoDark from '../../../assets/images/logo/logo-dark.svg'
-import LoginImg from '../../../assets/images/LoginImg/login.svg'
+// import LoginImg from '../../../assets/images/LoginImg/login.svg'
 import { FiUser } from 'react-icons/fi'
 import { TfiLock } from 'react-icons/tfi'
 import { Link } from 'react-router-dom'
@@ -19,7 +19,7 @@ const LoginPegawai = () => {
                         <p className='2xl:px-20'>
                             Login in to continue your activity!
                         </p>
-                        <img className="mt-15 inline-block " src={LoginImg} alt='Logo' />
+                        {/* <img className="mt-15 inline-block " src={LoginImg} alt='Logo' /> */}
                     </div>
                 </div>
 
